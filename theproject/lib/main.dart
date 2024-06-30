@@ -51,7 +51,7 @@ class MyApp extends StatelessWidget {
          title: 'مصر بيتك',
          home: const Tabs(),
          locale: Locale(controller.lang),
-         theme: ThemeData(fontFamily: 'Almarai'),
+         theme: ThemeData(fontFamily: 'Amiri'),
     );
     },);
   }
