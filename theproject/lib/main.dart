@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:theproject/controller/lang_controller.dart';
 import 'package:theproject/view/tabs.dart';
+import 'package:theproject/view/splash.dart';
 import 'generated/l10n.dart';
 import 'view/splash.dart';
 import 'package:intl/intl.dart';
@@ -49,7 +50,7 @@ class MyApp extends StatelessWidget {
           supportedLocales: S.delegate.supportedLocales,
 
          title: 'مصر بيتك',
-         home: const Tabs(),
+         home: const SplashScreen(),
          locale: Locale(controller.lang),
          theme: ThemeData(fontFamily: 'Amiri'),
     );
