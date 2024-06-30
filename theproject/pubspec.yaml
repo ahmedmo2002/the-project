@@ -101,6 +101,9 @@ flutter:
     - family: Massir
       fonts:
         - asset: assets/massir.ttf
+    - family: Amiri
+      fonts:
+        - asset: assets/Amiri-Regular.ttf     
     - family: Katibeh
       fonts:
         - asset: assets/Katibeh-Regular.ttf
